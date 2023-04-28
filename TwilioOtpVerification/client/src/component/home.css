@@ -1,0 +1,110 @@
+.window {
+  /* border: 2px solid yellow; */
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  flex: 10%;
+  padding-left: 80px;
+}
+.cat {
+  flex: 50%;
+}
+nav button {
+  margin-left: 20px;
+  margin: 15px 0;
+  width: 200px;
+  height: 30px;
+  opacity: 1;
+  border: 2px solid #404040;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease 0s;
+}
+
+nav button:hover {
+  background-color: #404040;
+  color: white;
+}
+
+.heading12 {
+  /* border: 2px solid yellow; */
+  padding: 30px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.heading12 p {
+  font-size: 30px;
+  /* border: 2px solid yellow; */
+  width: 200px !important;
+  text-align: center;
+  /* margin-left: 140px !important; */
+  margin: auto !important;
+}
+.containerStyles {
+  width: "1500px" !important;
+  height: "800px" !important;
+
+  border: "2px solid yellow";
+}
+
+@media (max-width: 500px) {
+  .signup {
+    /* border: 2px solid yellow; */
+    width: 390px !important;
+    height: auto;
+    /* padding-bottom: -50px !important; */
+    /* margin-top: -750px; */
+  }
+  .window nav {
+    /* border: 2px solid yellow; */
+    margin-top: 70px;
+    width: 200px;
+    height: 500px;
+  }
+  .window button {
+    width: 170px;
+    margin-left: -100px;
+    font-size: 10px;
+  }
+  .images {
+    width: 300px;
+    margin-left: 100px !important;
+  }
+  .images img {
+    width: 100%;
+  }
+
+  .heading12 p {
+    /* border: 2px solid yellow; */
+    width: 200px !important;
+    text-align: center;
+    /* margin-left: 140px !important; */
+    margin: auto !important;
+    margin-left: 90px !important;
+    font-size: 30px;
+  }
+  .design {
+    flex: 10%;
+    /* border: 2px solid yellow; */
+    height: 150px;
+    position: relative;
+    top: -125px;
+    right: 50px;
+  }
+  .design img {
+    height: 100%;
+    border: none !important;
+  }
+  .hedus {
+    width: 100px;
+    /* border: 2px solid black; */
+    height: auto;
+    /* margin-left: -100px !important; */
+  }
+}

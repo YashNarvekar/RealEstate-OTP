@@ -1,0 +1,122 @@
+.amemities {
+  width: 100%;
+  margin: 50px 0;
+}
+.container {
+  /* border: 2px solid yellow; */
+  width: 95%;
+  /* height: 400px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 35px; */
+}
+.leftcontainer {
+  flex: 60%;
+  /* border: 2px solid yellow; */
+}
+.leftcontainer img {
+  max-width: 100%;
+  margin-left: 100px;
+  height: 480px;
+  /* max-height: 500px; */
+}
+
+.rightcontainer {
+  flex: 40%;
+  background-color: #273a26;
+  height: 480px;
+}
+
+.rightblockheading {
+  font-family: "Montserrat", sans-serif;
+  padding: 12px 0;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  margin: auto;
+  width: 350px;
+}
+
+.leftimg1 {
+  /* border: 2px solid yellow !important; */
+  margin: auto;
+  width: 250px;
+
+  /* margin-right: -300px !important; */
+}
+.leftimg1 img {
+  width: 100%;
+}
+.rightactivities li {
+  color: #ffffff;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: end;
+  /* text-transform: uppercase; */
+  padding: 5px 15px;
+  margin: 0 15px 0px 0;
+  border-radius: 0;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  .container {
+    /* margin-left: 20px; */
+    /* border: 5px solid blue; */
+    width: 390px !important;
+    flex-direction: column;
+  }
+  .leftcontainer {
+    width: 390px !important;
+  }
+  .leftcontainer img {
+    width: 100% !important;
+    height: 300px;
+    margin-left: -20px !important;
+    /* border: 5px solid blue; */
+  }
+  .rightcontainer {
+    /* border: 2px solid yellow; */
+    width: 390px !important;
+    margin-left: -20px;
+  }
+  .rightblockheading {
+    /* width: 100px !important; */
+    /* margin-left: 150px; */
+    width: 150px;
+    /* border: 2px solid yellow; */
+  }
+  .rightblockheading p {
+    font-size: 10px !important;
+    margin-left: 30px;
+  }
+
+  .leftimg1 {
+    margin-left: 150px;
+  }
+  .rightcontainer {
+    /* width: 100%; */
+    border: none !important;
+  }
+  .amemities {
+    /* border: none; */
+    width: 200px !important;
+  }
+  .rightactivities {
+    margin-left: 100px;
+    /* float: right; */
+  }
+  .leftimg1 {
+    width: 200px;
+    /* border: 2px solid yellow; */
+    margin-left: 50px !important;
+  }
+  .leftimg1 img {
+    margin-left: 18px !important;
+    width: 250px;
+    /* border: 2px solid yellow; */
+  }
+}

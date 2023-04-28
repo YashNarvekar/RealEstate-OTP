@@ -1,0 +1,180 @@
+.heading31 p {
+  color: rgb(0, 0, 0);
+  visibility: visible;
+  animation-name: fadeInUp;
+  margin: 20px;
+
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  padding: 12px 0;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 24px;
+  width: 200px;
+  margin-left: 120px;
+  /* border: 2px solid yellow; */
+}
+
+.ContactForm {
+  margin-top: 70px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  /* border: 2px solid yellow; */
+  height: 380px;
+  margin: auto;
+}
+
+.formLeft {
+  flex: 50%;
+  height: 350 px;
+  /* border: 2px solid rgb(236, 5, 5); */
+  width: 1980px;
+  height: 350px;
+}
+
+.map {
+  width: 45% !important;
+  height: 350px !important;
+}
+
+.formRight {
+  flex: 50%;
+  /* border: 2px solid rgb(20, 20, 18); */
+}
+
+.formLeft {
+  width: 500px;
+}
+
+.form {
+  /* border: 2px solid yellow; */
+  width: 300px;
+  margin: auto;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 200px;
+  margin-bottom: 15px;
+}
+input {
+  height: 30px;
+}
+select {
+  width: 200px;
+}
+
+.icon {
+  padding: 10px;
+  background: #273a26;
+  color: white;
+  min-width: 20px;
+  height: 30px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #273a26;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  opacity: 0.9;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.terms {
+  /* border: 2px solid yellow; */
+  width: 350px;
+  margin-top: 20px;
+}
+
+.terms p {
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+
+  font-size: 9px !important;
+  font-weight: 800;
+  text-align: left !important;
+
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+
+.toptext p {
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin: 10px auto;
+}
+
+@media (max-width: 500px) {
+  .heading31 {
+    margin-left: -100px;
+  }
+  .formContainer {
+    flex-direction: column;
+    height: 900px;
+  }
+  .formLeft {
+    /* border: 2px solid yellow; */
+    /* height: 300px !important; */
+    width: 200px;
+  }
+  .ContactForm {
+    width: 390px;
+    /* border: 2px solid red; */
+    height: auto;
+    margin-top: 50px !important;
+    margin: auto;
+  }
+  .formLeft .map {
+    height: 400px !important;
+    width: 350px !important;
+    float: left;
+    /* margin-left: -20px; */
+  }
+
+  .formLeft {
+    height: 400px !important;
+  }
+  .formRight {
+    /* border: 2px solid yellow; */
+    width: 300px;
+    margin-left: 30px;
+    /* margin-left: -20px; */
+  }
+
+  .terms {
+    /* border: 2px solid yellow; */
+    margin: 10px auto;
+    width: 300px;
+  }
+}
